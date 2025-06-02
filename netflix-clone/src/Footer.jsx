@@ -1,25 +1,12 @@
-
+import Reused from './Reused.jsx'
 import './App.css'
 
 function Footer() {
     return (
         <>
-         <div style={{backgroundColor:'black'}} className="mainn">
-          {/* <div style={{ backgroundColor: 'black', color: 'white', padding: '20px' }}> */}
- 
-
-      
-        <form className="email">
-            <h3>Ready to watch? Enter your email to create or restart your membership</h3>
-            <div className="form">
-            <div>
-            <input type="text"   id="email"/>
-             <label htmlFor="email">Email Address</label>
-                    </div>
-                    <button className="getstarted">Get Started </button>
-                </div>
-                </form>
-            </div>
+        <div className="redd">
+         <Reused/>
+         </div>
             
         
 <footer className="footer">

@@ -1,11 +1,12 @@
 import './App.css'
+import Reused from './Reused'
 
 function App() {
   
 
   return (
     
-      <div id="backimg">
+     <div id="backimg">
         <div className="background">
             <div className="navbar">
                 <img src="src\assets\logo.png" alt="netflix logo" className="logo"/>
@@ -21,21 +22,11 @@ function App() {
     <div className="main">
                 <h1>Unlimited movies, TV<br/> shows and more</h1>
                 <p>Starts at ₹149. Cancel at any time.</p>
-                <form className="email">
-                    <h3>Ready to watch? Enter your email to create or restart your membership</h3>
-                <div className="form">
-                    <div>
-                        <input type="text"   id="email"/>
-                        <label htmlFor="email">Email Address</label>
-                    </div>
-                    <button className="getstarted">Get Started </button>
+                <Reused/>
                 </div>
-                </form>
-            </div>
-            
-        </div>
-
-    </div>
+    
+</div>
+</div>
       
    
   )

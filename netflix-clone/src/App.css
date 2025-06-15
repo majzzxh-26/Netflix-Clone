@@ -10,7 +10,7 @@ cursor: pointer;
 border: none;
 }
 #backimg{
-    background-image: url("assets/Bgnetflix.jpg");
+    background-image: url("/dist/assets/Bgnetflix.jpg");
     background-size: cover;
     height: 730px;
     border-bottom: 8px solid black; 
@@ -293,73 +293,211 @@ input:focus{
     padding-bottom: 20px;
 }
 
-
+/* -------- 1450px -------- */
 @media (max-width:1450px) {
-    .main h1{
+    .main h1 {
         font-size: 3.125rem;
     }
-    .form div{
-        width:450px;
+    .form div {
+        width: 450px;
         height: 60px;
     }
-    .form button{
+    .form button {
         width: 212px;
-        font-size:1.625rem;
+        font-size: 1.625rem;
+    }
+    .scroll-container {
+        margin: 0px 100px;
+    }
+    .card-row {
+        gap: 16px;
     }
 }
+
+/* -------- 950px -------- */
 @media (max-width:950px) {
-    .logo{
-        width:108px;
+    .logo {
+        width: 108px;
         height: 35px;
     }
-    .form{
+    .form {
         display: block;
     }
-    .form div{
+    .form div {
         height: 50px;
-        
         width: 100%;
-       
     }
-    .form button{
+    .form button {
         font-size: 1rem;
-        height:40px;
+        height: 40px;
         width: 130px;
-        margin-top:15px;
+        margin-top: 15px;
     }
-    h3{
+    h3 {
         font-size: 1.625rem;
         max-width: 500px;
     }
+    .scroll-container {
+        margin: 0px 40px;
+    }
+    .rcs {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+    }
+    .finale {
+        padding: 20px 40px;
+    }
+    .l {
+        padding: 0px 40px;
+    }
 }
+
+/* -------- 550px -------- */
 @media (max-width:550px) {
-    .main h1{
-        font-family: 1.75rem;
+    .main h1 {
+        font-size: 1.75rem;
     }
-    .main br{
-        display:none;
+    .main br {
+        display: none;
     }
-    .main p,h3 {
+    .main p,
+    .main h3 {
         font-size: 1.125rem;
     }
-    .navbar{
-        margin:0;
+    .navbar {
+        margin: 0;
         padding: 20px 15px;
     }
-    #backimg{
+    #backimg {
         height: 485px;
-
     }
-    .logo{
+    .logo {
         width: 88px;
     }
-    .navbar #language{
+    .navbar #language {
         width: 100px;
-        height:28px;
-    }
-    .signin{
-        width:60px;
         height: 28px;
-        padding:2px
+    }
+    .signin {
+        width: 60px;
+        height: 28px;
+        padding: 2px;
+    }
+    .form div {
+        width: 100%;
+        height: 50px;
+    }
+    .form button {
+        width: 100%;
+        font-size: 1rem;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .container {
+        padding: 20px 10px;
+    }
+    .title,
+    .subtitle,
+    .faq h3 {
+        padding-left: 15px;
+        margin-left: 0;
+        font-size: 1rem;
+    }
+    .scroll-container {
+        margin: 0 10px;
+    }
+    .card-row {
+        padding: 10px;
+        gap: 10px;
+    }
+    .card {
+        width: 120px;
+        height: 180px;
+    }
+    .rcs {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+    .faq-question div {
+        width: 90%;
+        font-size: 14px;
+        padding: 10px;
+    }
+    .answer {
+        font-size: 14px;
+        padding: 10px;
+        width: 90%;
+    }
+    .finale {
+        padding: 20px 15px;
+    }
+    .links {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .link1 ul {
+        padding-right: 0;
+        padding-top: 10px;
+    }
+    .link1 li {
+        padding: 6px 0;
+        font-size: 11px;
+    }
+    .l {
+        padding: 0 15px;
+    }
+    .l p {
+        font-size: 11px;
+        text-align: center;
+    }
+}
+
+/* -------- 480px -------- */
+@media (max-width:480px) {
+    .main h1 {
+        font-size: 1.5rem;
+    }
+    .main p,
+    .main h3 {
+        font-size: 1rem;
+    }
+    .logo {
+        width: 75px;
+    }
+    .signin {
+        font-size: 12px;
+    }
+    .card {
+        width: 100px;
+        height: 150px;
+    }
+    .faq-question div,
+    .answer {
+        font-size: 13px;
+    }
+}
+
+/* -------- 375px -------- */
+@media (max-width:375px) {
+    .main {
+        padding: 50px 10px;
+    }
+    .main h1 {
+        font-size: 1.25rem;
+    }
+    .main p,
+    .main h3 {
+        font-size: 0.9rem;
+    }
+    .form button {
+        font-size: 0.875rem;
+        height: 36px;
+    }
+    .faq-question div,
+    .answer {
+        font-size: 12px;
+    }
+    .links {
+        font-size: 12px;
     }
 }

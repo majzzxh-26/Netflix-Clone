@@ -21,34 +21,34 @@ function Middle (){
         <div className="card-row" 
         id="card-row">
             <div className="card" >
-                <img src="src/assets/ajith.jpg"/>
+                <img src="assets/ajith.jpg"/>
             </div>
              <div className="card">
-                <img src="src/assets/VJ.jpg"/>
+                <img src="assets/VJ.jpg"/>
             </div>
              <div className="card">
-                <img src="src/assets/animal.jpg"/>
+                <img src="assets/animal.jpg"/>
             </div>
              <div className="card">
-                <img src="src/assets/alpha.jpg"/>
+                <img src="assets/alpha.jpg"/>
             </div>
              <div className="card">
-                <img src="src/assets/lucifer.jpg"/>
+                <img src="assets/lucifer.jpg"/>
             </div>
              <div className="card">
-                <img src="src/assets/twister.jpg"/>
+                <img src="assets/twister.jpg"/>
             </div>
              <div className="card">
-                <img src="src/assets/st.jpg"/>
+                <img src="assets/st.jpg"/>
             </div>
              <div className="card">
-                <img src="src/assets/gift.jpg"/>
+                <img src="assets/gift.jpg"/>
             </div>
              <div className="card">
-                <img src="src/assets/relevations.jpg"/>
+                <img src="assets/relevations.jpg"/>
             </div>
              <div className="card">
-                <img src="src/assets/sirens.jpg"/>
+                <img src="assets/sirens.jpg"/>
             </div>
             <button className="scroll-button 
             scroll-right" 

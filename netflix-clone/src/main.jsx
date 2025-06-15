@@ -9,12 +9,12 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
   
-    <>
+    <div>
     <App />
     <Middle />
     <End/>
     <Footer/>
     
-    </>
+    </div>
   
 )

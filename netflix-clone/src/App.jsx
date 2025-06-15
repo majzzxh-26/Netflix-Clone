@@ -9,7 +9,7 @@ function App() {
      <div id="backimg">
         <div className="background">
             <div className="navbar">
-                <img src="src\assets\logo.png" alt="netflix logo" className="logo"/>
+                <img src="assets/logo.png" alt="netflix logo" className="logo"/>
                 <select name="language" id="language">
                     <option>English</option>
                     <option>Hindi</option>
